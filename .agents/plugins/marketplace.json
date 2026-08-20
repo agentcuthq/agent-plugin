@@ -1,0 +1,12 @@
+{
+  "name": "agentcut",
+  "interface": { "displayName": "AgentCut" },
+  "plugins": [
+    {
+      "name": "agentcut",
+      "source": { "source": "local", "path": "./codex" },
+      "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" },
+      "category": "Design"
+    }
+  ]
+}

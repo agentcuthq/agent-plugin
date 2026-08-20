@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "agentcut": {
+      "url": "https://agentcut.io/api/mcp",
+      "oauth_resource": "https://agentcut.io/api/mcp",
+      "http_headers": {
+        "x-agentcut-mcp-client": "codex",
+        "x-agentcut-mcp-surface": "codex"
+      }
+    }
+  }
+}

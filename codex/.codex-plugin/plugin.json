@@ -1,0 +1,46 @@
+{
+  "name": "agentcut",
+  "version": "0.4.0",
+  "description": "AgentCut plugin for cloud talking-head video editing from Codex.",
+  "author": {
+    "name": "AgentCut",
+    "email": "agentcuthq@users.noreply.github.com",
+    "url": "https://agentcut.io"
+  },
+  "homepage": "https://agentcut.io",
+  "repository": "https://github.com/agentcuthq/agent-plugin.git",
+  "license": "UNLICENSED",
+  "keywords": [
+    "agentcut",
+    "video",
+    "video-editing",
+    "editor",
+    "captions",
+    "subtitles",
+    "transcription",
+    "timeline",
+    "codex",
+    "mcp"
+  ],
+  "mcpServers": "./.mcp.json",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "AgentCut",
+    "shortDescription": "Edit talking-head videos in the AgentCut cloud from Codex",
+    "longDescription": "AgentCut turns a raw talking-head recording into a tight, captioned cut. Import a local video (bundled ffmpeg, nothing to install), then transcription, editorial screening, timeline compilation, rendering, verification and QA visuals all run in the AgentCut cloud. The deliverable is an editable timeline in the browser.",
+    "developerName": "AgentCut",
+    "category": "Design",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://agentcut.io",
+    "defaultPrompt": [
+      "Edit this talking-head video with AgentCut",
+      "Cut the bad retakes and tighten this recording",
+      "Add captions to this video",
+      "Import this clip and clean up the pauses"
+    ],
+    "brandColor": "#111827"
+  }
+}
