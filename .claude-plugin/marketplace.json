@@ -1,0 +1,17 @@
+{
+  "name": "agentcut",
+  "owner": { "name": "AgentCut", "email": "agentcuthq@users.noreply.github.com", "url": "https://agentcut.io" },
+  "metadata": { "description": "AgentCut plugins for Claude Code" },
+  "plugins": [
+    {
+      "name": "agentcut",
+      "source": "./claude",
+      "description": "Edit talking-head videos in the AgentCut cloud from Claude Code: import media, author timelines, captions, desilence, render, verify, QA visuals.",
+      "category": "productivity",
+      "homepage": "https://agentcut.io",
+      "author": { "name": "AgentCut", "email": "agentcuthq@users.noreply.github.com", "url": "https://agentcut.io" },
+      "license": "UNLICENSED",
+      "keywords": ["agentcut", "video", "video-editing", "captions", "subtitles", "transcription", "timeline", "mcp"]
+    }
+  ]
+}

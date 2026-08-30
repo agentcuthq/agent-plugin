@@ -1,0 +1,37 @@
+{
+  "name": "agentcut",
+  "version": "0.5.7",
+  "description": "AgentCut plugin for cloud talking-head video editing from Claude Code.",
+  "author": {
+    "name": "AgentCut",
+    "email": "agentcuthq@users.noreply.github.com",
+    "url": "https://agentcut.io"
+  },
+  "homepage": "https://agentcut.io",
+  "repository": "https://github.com/agentcuthq/agent-plugin.git",
+  "license": "UNLICENSED",
+  "keywords": [
+    "agentcut",
+    "video",
+    "video-editing",
+    "editor",
+    "captions",
+    "subtitles",
+    "transcription",
+    "timeline",
+    "claude-code",
+    "mcp"
+  ],
+  "mcpServers": {
+    "agentcut": {
+      "type": "http",
+      "url": "https://api.agentcut.io/api/mcp",
+      "oauth_resource": "https://api.agentcut.io/api/mcp",
+      "headers": {
+        "x-agentcut-mcp-client": "claude_code",
+        "x-agentcut-mcp-surface": "claude_code"
+      }
+    }
+  },
+  "skills": "./skills/"
+}

@@ -1,0 +1,10 @@
+AgentCut distributes unmodified FFmpeg and ffprobe executables from these
+static-build providers:
+
+- macOS arm64: https://ffmpeg.martin-riedl.de/
+- Windows x64: https://www.gyan.dev/ffmpeg/builds/
+
+Those builds are licensed under GNU GPL version 3. The complete GPLv3 license
+text is staged alongside the binaries as FFMPEG-GPLv3.txt by
+scripts/stage-ffmpeg.mjs. FFmpeg source and licensing information:
+https://ffmpeg.org/legal.html
